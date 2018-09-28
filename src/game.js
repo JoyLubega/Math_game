@@ -49,7 +49,7 @@ class Game extends Component {
     render() {
        const {selectedNumbers, randomNumberofStars, answerIsCorrect} = this.state;
         return ( 
-            <div className = "Container" >
+            <div className = " game Container" >
                 <h3>Play Nine</h3>
                 <hr/>
                 <div className="row">

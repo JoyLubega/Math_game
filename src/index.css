@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url('math.jpg');
+  background-size: 100%;
 }
 
 .fa-star{
@@ -14,7 +16,7 @@ span{
   margin: 0.5em;
   text-align: center;
   background-color: #ccc;
-  width: 24px;
+  width: 25px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -29,5 +31,22 @@ span{
   background-color: #aaddaa;
   color: #9999bb;
   cursor: not-allowed;
+  
+}
+.game{
+  width:600px;
+  height: 400px;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: #d9d9e84c;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+.card{
+  width: 400px;
+  margin-left: 100px;
+  height: 50px;
+  padding-top: 10px;
   
 }
